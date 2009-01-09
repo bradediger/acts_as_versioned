@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.description = "ActiveRecord plugin for versioning your models."
   s.has_rdoc = true
   s.authors  = ["Rick Olson"]
+  s.add_dependency 'activerecord', '>2.0'
   s.files    = [
     "CHANGELOG", 
     "MIT-LICENSE", 
